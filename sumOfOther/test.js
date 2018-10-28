@@ -13,5 +13,4 @@ describe('Make summ', () => {
     const summ = sum([2, 3, 4, 1, 3]);
     assert.equal(JSON.stringify(summ), JSON.stringify([11, 10, 9, 12, 10]));
   });
-
 });
